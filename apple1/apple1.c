@@ -30,7 +30,6 @@ uint8_t r8(struct cpu *c, uint16_t addr) {
 		} 
 	} 
 	if ((addr & 0xff00) == 0xff00) {
-		/*printf("read wozmon %02x\n", addr & 0xff);*/
 		return wozmon[addr & 0xff];
 	}
 	if ((addr & 0xe000) == 0xe000) {
