@@ -26,10 +26,10 @@ uint8_t r8(struct cpu *c, uint16_t addr) { (void)c; return mem[addr]; }
 uint8_t w8(struct cpu *c, uint16_t addr, uint8_t b) { (void)c; return mem[addr] = b; }
 
 int main() {
-    struct cpu cpu;
-	rst(&cpu);
-    while (step(&cpu) >= 0);
-    return 0;
+  struct cpu cpu;
+  rst(&cpu);
+  while (step(&cpu) >= 0);
+  return 0;
 }
 ```
 
