@@ -1,6 +1,6 @@
 # bsoz - Bang Some Ones & Zeros
 
-[![Build Status](https://github.com/zserge/bsoz/actions/workflows/ci/badge.svg)](https://github.com/zserge/bsoz/actions)
+[![Build Status](https://github.com/zserge/bsoz/actions/workflows/ci.yaml/badge.svg)](https://github.com/zserge/bsoz/actions)
 
 bsoz is a tiny and versatile emulator suite designed to bring the nostalgic charm of vintage computers to the modern era. It provides accurate emulation for the [MOS 6502 CPU](https://en.wikipedia.org/wiki/MOS_Technology_6502) and currently supports [Apple 1](https://en.wikipedia.org/wiki/Apple_I) computer. There is ongoing development of [KIM-1](https://en.wikipedia.org/wiki/KIM-1) and hopefully [Apple II](https://en.wikipedia.org/wiki/Apple_II) emulators.
 
