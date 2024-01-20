@@ -1,5 +1,4 @@
-#define BSOZ_DEBUG 0
-#include "bsoz.h"
+#include <bsoz.h>
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -16,7 +15,7 @@ int test_functional(void) {
 	rst(&cpu);
 	cpu.pc = 0x400;
 
-	f = fopen("test/6502test.bin", "rb");
+	f = fopen("test.bin", "rb");
 	fread(mem, 0x10000, 1, f);
 	fclose(f);
 
