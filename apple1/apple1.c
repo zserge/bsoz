@@ -5,6 +5,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include <fcntl.h>
+#include <getopt.h>
 #include <termios.h>
 
 #include "rom.h"
