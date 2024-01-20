@@ -10,7 +10,7 @@
 #include "rom.h"
 
 uint8_t mem[0x10000];
-uint16_t memsz = 8192;
+uint16_t memsz = 0xffff;
 uint8_t ch;
 
 uint8_t r8(struct cpu *c, uint16_t addr) {
