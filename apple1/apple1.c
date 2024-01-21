@@ -105,7 +105,7 @@ int main(int argc, char *argv[]) {
     presz = ftell(f);
     pre = calloc(1, presz);
     fseek(f, 0, SEEK_SET);
-    if (fread(pre, presz, 1, f) < 0) {
+    if (fread(pre, presz, 1, f) < 1) {
       perror(argv[1]);
       return 1;
     }
